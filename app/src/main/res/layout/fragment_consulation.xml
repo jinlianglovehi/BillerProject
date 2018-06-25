@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--顶部的 bar -->
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/str_features"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="@string/string_features"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/str_quick_info"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="@string/string_quick_info"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/consulation_viewpage"
+        android:layout_below="@id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BillerProject</string>
+    <string name="string_consultaion">咨询</string>
+    <string name="string_level">评级</string>
+    <string name="string_mine">我的</string>
+    <string name="string_features">特稿</string>
+
+    <string name="string_quick_info">快讯</string>
+    
+</resources>
